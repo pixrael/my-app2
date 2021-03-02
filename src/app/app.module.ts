@@ -8,11 +8,15 @@ import { MaterialModule } from '../app/material/material.module';
 
 import { AppComponent } from './app.component';
 import { ToolbarComponent } from './toolbar/toolbar.component';
+import { GridViewComponent } from './grid-view/grid-view.component';
+import { ImagesGridComponent } from './grid-view/images-grid/images-grid.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    ToolbarComponent
+    ToolbarComponent,
+    GridViewComponent,
+    ImagesGridComponent
   ],
   imports: [
     BrowserModule,

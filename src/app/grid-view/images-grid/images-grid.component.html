@@ -1,0 +1,12 @@
+<mat-grid-list cols="4" rowHeight="100px">
+    <mat-grid-tile *ngFor="let tile of tiles" [colspan]="tile.cols" [rowspan]="tile.rows"
+        [style.background]="tile.color">
+        <img [src]="tile.src" />
+    </mat-grid-tile>
+</mat-grid-list>
+
+<!-- <img src="http://interview.agileengine.com/pictures/cropped/0002.jpg" /> -->
+
+<!-- <mat-grid-list cols="2" rowHeight="2:1">
+    <mat-grid-tile *ngFor="let tile of tiles" ><img [src]="tile.src" /></mat-grid-tile>
+  </mat-grid-list> -->
